@@ -409,6 +409,150 @@ int CheckKeyCodes(char* k, MMKeyCode *key)
 	{
 		*key = K_F12;
 	}
+	else if (strcmp(k, "0") == 0)
+	{
+		*key = K_0;
+	}
+	else if (strcmp(k, "1") == 0)
+	{
+		*key = K_1;
+	}
+	else if (strcmp(k, "2") == 0)
+	{
+		*key = K_2;
+	}
+	else if (strcmp(k, "3") == 0)
+	{
+		*key = K_3;
+	}
+	else if (strcmp(k, "4") == 0)
+	{
+		*key = K_4;
+	}
+	else if (strcmp(k, "5") == 0)
+	{
+		*key = K_5;
+	}
+	else if (strcmp(k, "6") == 0)
+	{
+		*key = K_6;
+	}
+	else if (strcmp(k, "7") == 0)
+	{
+		*key = K_7;
+	}
+	else if (strcmp(k, "8") == 0)
+	{
+		*key = K_8;
+	}
+	else if (strcmp(k, "9") == 0)
+	{
+		*key = K_9;
+	}
+	else if (strcmp(k, "a") == 0)
+	{
+		*key = K_A;
+	}
+	else if (strcmp(k, "b") == 0)
+	{
+		*key = K_B;
+	}
+	else if (strcmp(k, "c") == 0)
+	{
+		*key = K_C;
+	}
+	else if (strcmp(k, "d") == 0)
+	{
+		*key = K_D;
+	}
+	else if (strcmp(k, "e") == 0)
+	{
+		*key = K_E;
+	}
+	else if (strcmp(k, "f") == 0)
+	{
+		*key = K_F;
+	}
+	else if (strcmp(k, "g") == 0)
+	{
+		*key = K_G;
+	}
+	else if (strcmp(k, "h") == 0)
+	{
+		*key = K_H;
+	}
+	else if (strcmp(k, "i") == 0)
+	{
+		*key = K_I;
+	}
+	else if (strcmp(k, "j") == 0)
+	{
+		*key = K_J;
+	}
+	else if (strcmp(k, "k") == 0)
+	{
+		*key = K_K;
+	}
+	else if (strcmp(k, "l") == 0)
+	{
+		*key = K_L;
+	}
+	else if (strcmp(k, "m") == 0)
+	{
+		*key = K_M;
+	}
+	else if (strcmp(k, "n") == 0)
+	{
+		*key = K_N;
+	}
+	else if (strcmp(k, "o") == 0)
+	{
+		*key = K_O;
+	}
+	else if (strcmp(k, "p") == 0)
+	{
+		*key = K_P;
+	}
+	else if (strcmp(k, "q") == 0)
+	{
+		*key = K_Q;
+	}
+	else if (strcmp(k, "r") == 0)
+	{
+		*key = K_R;
+	}
+	else if (strcmp(k, "s") == 0)
+	{
+		*key = K_S;
+	}
+	else if (strcmp(k, "t") == 0)
+	{
+		*key = K_T;
+	}
+	else if (strcmp(k, "u") == 0)
+	{
+		*key = K_U;
+	}
+	else if (strcmp(k, "v") == 0)
+	{
+		*key = K_V;
+	}
+	else if (strcmp(k, "w") == 0)
+	{
+		*key = K_W;
+	}
+	else if (strcmp(k, "x") == 0)
+	{
+		*key = K_X;
+	}
+	else if (strcmp(k, "y") == 0)
+	{
+		*key = K_Y;
+	}
+	else if (strcmp(k, "z") == 0)
+	{
+		*key = K_Z;
+	}
 	else if (strcmp(k, "printscreen") == 0)
 	{
 		#if defined(IS_WINDOWS)
